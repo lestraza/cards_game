@@ -1,0 +1,74 @@
+html, body, div, p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+  }
+  button {
+    font-weight: bold;
+    font-size: 20px;
+    color: #192c5c;
+    border-radius: 3px;
+    border: 1px solid #192c5c;
+  }
+  .wrapper {
+    height: 900px;
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+  }
+  .card {
+      height: 200px;
+      background-size: cover;
+      flex-basis: 25%;
+      cursor: pointer; 
+  }
+  .card_container {
+    width: 68%;
+    height: 100%;
+  }
+  .card_face_up {
+    margin: 5px;
+    background-size: contain;
+    height: 100%;
+    background-repeat: no-repeat;
+  }
+  .card_face_down {
+    margin: 5px;
+    background: url(./images/cardFaceDown.jpg) no-repeat;
+    background-size: contain;
+    height: 100%;
+    
+  }
+  .card_ismatched {
+    box-shadow: 0 0 8px rgba(77, 95, 92, 0.5);
+    border-radius: 5px;
+  }
+  .pic_1 {
+    background-image: url(./images/pic_1.png);
+  }
+  .pic_2 {
+    background-image: url(./images/pic_2.jpg);
+  }
+  .pic_3 {
+    background-image: url(./images/pic_3.png);
+  }
+  .pic_4 {
+    background-image: url(./images/pic_4.png);
+  }
+  .pic_5 {
+    background-image: url(./images/pic_5.png);
+  }
+  .pic_6 {
+    background-image: url(./images/pic_6.png);
+  }
+  .pic_7 {
+    background-image: url(./images/pic_7.png);
+  }
+  .pic_8 {
+    background-image: url(./images/pic_8.png);
+  }
+
